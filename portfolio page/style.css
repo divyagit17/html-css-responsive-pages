@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ccd5ae;
+    color:rgb(15, 15, 15);
+    line-height: 1.5;
+    padding:20px;
+}
+header{
+    text-align: center;
+    padding: 20px;
+    background-color: #e9edc9;
+    color: rgb(24, 23, 23);
+    border-radius: 5px;
+}
+
+header h1{
+    font-size: 2.5rem;
+}
+
+header p{
+    font-size: 1.2rem;
+}
+
+section{
+    margin: 40px 0;
+}
+
+.about,
+.contact{
+    background-color: #fefae0;
+    color: rgb(19, 18, 18);
+    padding: 20px;
+    border-radius: 5px;
+}
+.about h2, .contact h2, .skills h2{
+    margin-bottom: 15px;
+    color:#6d5d97;
+}
+
+.skills-grid{
+    display: grid;
+    color:#34a72a;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap:15px;
+    margin-top: 20px;
+
+}
+
+.skill{
+    background-color: #e9790959;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    color:azure;
+    box-shadow: 0 2px 4px rgba(236, 109, 4, 0.219);
+
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    color:rgb(27, 27, 26);
+    margin-top: 40px;
+    font-size:0.9rem;
+    
+}
