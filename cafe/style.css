@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0caca;
+    color: #0cabf5;
+    line-height: 1.6;
+    padding: 20px;
+}
+.background-wrapper {
+  background-image: url('header.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 20px;
+}
+
+.hero{
+    height: 300px;
+  background-image: url('background.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+.hero h1{
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.menu{
+    background: rgb(177, 58, 29);
+    margin:40px 0;
+    padding: 20px;
+}
+
+.menu-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.menu h2, .contact h2, .reviews h2{
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(36, 207, 199);
+}
+
+.menu-item{
+    background-color: #e28888;
+    color: rgba(8, 8, 8, 0.267);
+    padding: 15px;
+    border: 1px solid #ebe2e2;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item h3{
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.menu-item p{
+    color: #666;
+    font-size: 1.1rem;
+}
+
+.reviews{
+    background-color: #a74e85;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.review-list{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    max-width: 700px;
+    margin: 0 auto;
+   
+}
+
+.review{
+    background-color: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #292626;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.review strong{
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.contact{
+    background-color: #161515;
+    margin: 40px 0;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow:0 4px 15px rgba(243, 240, 240, 0.3);
+}
+
+footer{
+    font-size: 0.9rem;
+    color: #0e0d0d;
+    text-align: center;
+    margin-top:30px;
+}

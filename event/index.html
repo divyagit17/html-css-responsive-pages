@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tech spark - tech conference</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="hero">
+        <div class="hero-overlay">
+        <h1>Welcome to Tech Spark</h1>
+        <p>Innovate | Inspire | Impact  | 15th-17th August </p>
+        <a href ="#register" class=" btn-primary">Register Now</a>
+        </div>
+    </header>
+
+    <section class="schedule">
+        <h2>Event schedule</h2>
+        <table>
+            <tr>
+                <th>DATE</th>
+                <th>EVENT</th>
+                <th>TIME</th>
+            </tr>
+
+            <tr>
+                <td>15th August</td>
+                <td>Inauguration & Keynote</td>
+                <td>10:00 AM - 12:00 AM</td>
+            </tr>
+
+            <tr>
+                <td>15th August</td>
+                <td> Tech Talk: The Future of AI</td>
+                <td>2:00 PM - 6:00 PM</td>
+            </tr>
+            <tr>
+                <td>16th August</td>
+                <td>Panel Discussion: Cybersecurity Trends</td>
+                <td>11:00 AM - 12:30 PM</td>
+
+            </tr>
+
+            <tr>
+                <td>16th August</td>
+                <td>Workshop: Building Resilient Systems</td>
+                <td>2:00 PM - 6:00 PM</td>
+            </tr>
+
+            <tr>
+                <td>17th August</td>
+                <td>Networking Event</td>
+                <td>10:00 AM - 12:00 PM</td>
+            </tr>
+        </table>
+
+    </section>
+
+    <section class="speakers">
+        <h2>Featured Speakers</h2>
+        <div class="speaker-grid">
+            <div class="speaker-card">
+                <img src="speaker1.jpeg" alt="Dr. Jane Smith">
+                <h3>Dr. Jane Smith</h3>
+                <p>AI Researcher</p>
+            </div>
+            <div class="speaker-card">
+                <img src="speaker2.jpeg" alt="Mr. John Doe">
+                <h3>Mr. John Doe</h3>
+                <p>Cybersecurity Expert</p>
+            </div>
+            <div class="speaker-card">
+                <img src="speaker3.jpeg" alt="Ms. Emily Johnson">
+                <h3>Ms. Emily Johnson</h3>
+                <p>Tech Entrepreneur</p>
+            </div>
+            <div class="speaker-card">
+                <img src="speaker4.jpeg" alt="Dr. Alan Turing">
+                <h3>Dr. Alan Turing</h3>
+                <p>Data Scientist</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="register" id="register">
+        <h2>Register Now</h2>
+        <p>Join us for an exciting three-day event filled with innovation, networking, and learning.</p>
+        <form action="/submit_registration" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="affiliation">Affiliation:</label>
+            <input type="text" id="affiliation" name="affiliation">
+
+            <button type="submit" class="btn-primary">Submit Registration</button>
+        </form>
+
+    </section>
+    <footer class="footer">
+        <p>&copy; 2025 Tech Spark Conference. All rights reserved.</p>
+        
+    </footer>
+
+</body>
+</html>

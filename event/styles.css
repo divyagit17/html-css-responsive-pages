@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body, html{
+    font-family: sans-serif,'Segoe UI';
+    color:rgb(17, 16, 16);
+    background-color: #f0f0f0;
+}
+    body {
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero{
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.hero-overlay{
+    background-color: rgba(20, 20, 20, 0.6);
+    color: wheat;
+    padding:40px;
+    text-align:center;
+    border-radius:10px;
+}
+.hero h1{
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+.register-btn{
+    background-color: firebrick;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    display:inline-block;
+    text-decoration: none;
+    margin-top:15px;
+    font-weight: bold;
+    transition: background-color 0.3s ;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+.register-btn:hover{
+    background-color: darkred;
+}
+section{
+    background-color: #1f445a;
+    padding:40px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 30px;
+    color: rgb(209, 212, 16);
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    background-color: wheat;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+table th, table td{
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+table th{
+    background-color: rgb(204, 214, 55);
+    color: white;
+}
+
+.speaker-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+    justify-content: center;
+}
+.speaker-card{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    padding: 15px;
+    text-align: center;
+}
+.speaker-card img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.register{
+    text-align: center;
+    background-color: wheat;
+    border-radius: 5px;
+}
+.register h2{
+    color: rgb(19, 18, 18);
+    padding: 20px;
+}
+.register p{
+    color: rgb(17, 17, 17);
+    padding: 0 15px 15px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form input, .form textarea{
+    width: 65%;
+    max-width: 250px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+.form input[type="submit"]{
+    background-color: firebrick;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+.form input[type="submit"]:hover{
+    background-color: darkred;
+}
+.footer{
+   font-size: 1.5rem;
+    color: #31d80f;
+    text-align: center;
+    margin-top:30px;
+}
