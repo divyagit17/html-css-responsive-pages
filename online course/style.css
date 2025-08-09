@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background: #ff9800;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.hero {
+    background: url('background.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero p {
+    margin: 10px 0 20px;
+    font-size: 1.2rem;
+}
+
+.highlights {
+    padding: 50px 20px;
+    text-align: center;
+    background: #8a8282;
+}
+
+.highlight-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.highlight {
+    background:burlywood;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.highlight i {
+    font-size: 2rem;
+    color: #ff9800;
+    margin-bottom: 10px;
+}
+
+.instructor {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.instructor-info {
+    background: cornflowerblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.instructor-info img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.badges {
+    padding: 40px 20px;
+    text-align: center;
+    background: #93b46e;
+}
+
+.badge-list i {
+    font-size: 3rem;
+    margin: 0 15px;
+    color: #ff9800;
+}
+
+.enroll {
+    padding: 50px 20px;
+    text-align: center;
+}

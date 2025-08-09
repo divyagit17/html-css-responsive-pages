@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    color: #333;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 50px;
+    background: white;
+}
+.hero-content {
+    flex: 1;
+    min-width: 300px;
+}
+.hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+.hero-content p {
+    margin-bottom: 20px;
+}
+.store-buttons {
+    display: flex;
+    gap: 15px;
+}
+.store-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.store-btn.google {
+    background: #34a853;
+}
+.store-btn.apple {
+    background: #000;
+}
+.hero-image {
+    flex: 1;
+    min-width: 300px;
+}
+.hero-image img {
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+/* Features Section */
+.features {
+    padding: 50px;
+    text-align: center;
+}
+.feature-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.feature-card {
+    background: rgb(185, 144, 144);
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+}
+.feature-card i {
+    font-size: 2rem;
+    color: #34a853;
+    margin-bottom: 10px;
+}
+
+/* Screenshots Section */
+.screenshots {
+    padding: 50px;
+    text-align: center;
+}
+.screenshot-gallery {
+    background: aqua;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.screenshot-gallery img {
+    width: 250px;
+    border-radius: 10px;
+}
